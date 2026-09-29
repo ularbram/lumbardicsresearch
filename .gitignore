@@ -1,0 +1,16 @@
+# Private local artifacts
+.venv*/
+__pycache__/
+.pytest_cache/
+*.pt
+*.pth
+*.dcm
+*.npy
+*.npz
+*.zip
+.env*
+research_run/
+local_predictions/
+manuscript/
+patient_burden.csv
+*_oof.csv

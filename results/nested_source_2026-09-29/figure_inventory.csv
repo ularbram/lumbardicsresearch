@@ -1,0 +1,7 @@
+figure,caption
+01_primary_metrics,"Raw and inner-calibrated nested OOF metrics. Bars are conditional patient-clustered 95% percentile intervals, not training-variance intervals."
+02_paired_differences,Paired differences using identical patient bootstrap weights. Positive QWK/AP and negative Brier differences favor the first procedure. Comparisons remain exploratory.
+03_roc_precision_recall,Threshold-grouped ROC and precision–recall curves on nested outer predictions. AP is non-interpolated average precision; horizontal PR reference shows prevalence. Scalar uncertainty is in Table metric_confidence_intervals.
+04_reliability,"Ten equal-width probability bins. Descriptive observed fractions, without binwise confidence claims. Bin denominators and event counts are supplied in reliability_bins.csv. Calibration is fitted only on inner predictions."
+05_confusion_matrices,Counts and row-normalized fractions using argmax class assignment. This is not a source-fitted decision threshold.
+08_ordinal_errors,"Signed ordinal error and major severe undercalling. Denominator for major undercalling is all severe targets, not all targets."

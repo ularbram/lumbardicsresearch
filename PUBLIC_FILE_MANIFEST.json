@@ -1,0 +1,86 @@
+{
+  "scope": "selective aggregate-only release; two small helper/test files, not full code",
+  "excluded": "MRI, identifiers, individual predictions, checkpoints, training code, internal tools, manuscript, secrets",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "9e9fbaf14d2bfa2841836af8940a778d1c949f72517af4c39974b3daee7c2e46",
+      "bytes": 177
+    },
+    {
+      "path": "README.md",
+      "sha256": "8418fa997993127fa06f84e5167850519cd2f75b0af1c4e03fe526142ac08198",
+      "bytes": 3565
+    },
+    {
+      "path": "analysis/aggregate_metrics.py",
+      "sha256": "d3edda2ea325b0d3da9293ac7824ade911abd5d050beb881d0048694a343f91b",
+      "bytes": 1564
+    },
+    {
+      "path": "analysis/test_aggregate_metrics.py",
+      "sha256": "49f55ab88f7df4244fafa4d08ed18c7c48c9691d1148a4cd7b4501f4beb96e50",
+      "bytes": 639
+    },
+    {
+      "path": "results/nested_source_2026-09-29/analysis_specification.json",
+      "sha256": "8a79af16dd35d41e645b776ccab3beea1a9323a6c14dacda40e8c5101df30e10",
+      "bytes": 670
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figure_inventory.csv",
+      "sha256": "1a6d11548fa3efc44b13e44eb61e6d87f4a97bdc2e16013f643442ac229f8624",
+      "bytes": 1148
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/01_primary_metrics.svg",
+      "sha256": "af0ccfb95282719445c20dbea83500890ff188f7e208699320f92e02c74a5dbb",
+      "bytes": 26428
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/02_paired_differences.svg",
+      "sha256": "e3ebe53e805df62e50fd89ec8db199a26e2a7299183388f231ba73b2a4b97069",
+      "bytes": 20697
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/03_roc_precision_recall.svg",
+      "sha256": "09dc6e8ca8c8c24869fe2c7ccf93e0fcb2e0b88aca1abd02b5d36723a5bd2b81",
+      "bytes": 958679
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/04_reliability.svg",
+      "sha256": "a73f8d3fbc1732ffe50dc0bf3f2497ab33c147acef5fb0cf5b844c9cc4e73ca5",
+      "bytes": 32451
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/05_confusion_matrices.svg",
+      "sha256": "b40be95ebd252387dd8ce842b16b36dcb6f610bf239835247e5b32a30793fae4",
+      "bytes": 60592
+    },
+    {
+      "path": "results/nested_source_2026-09-29/figures/08_ordinal_errors.svg",
+      "sha256": "195d0656ba5bcf9a04d25f50bf384f2d9c494422711e7c24152a4f26ae07c897",
+      "bytes": 20317
+    },
+    {
+      "path": "results/nested_source_2026-09-29/tables/confusion_matrices.csv",
+      "sha256": "9f3db8d80874d376d8f92bc1bb2f0fdda92409243ffdd1ecc9a234fc6be987ea",
+      "bytes": 1650
+    },
+    {
+      "path": "results/nested_source_2026-09-29/tables/metric_confidence_intervals.csv",
+      "sha256": "e58ab50720ca1b2dd1f559bdfa127cb31d0765abc5e8ffdfd2e1910870322c2b",
+      "bytes": 6202
+    },
+    {
+      "path": "results/nested_source_2026-09-29/tables/paired_differences.csv",
+      "sha256": "93a440ea788076e38d854e8d038309b4022b513b725142b99386c03620f9e683",
+      "bytes": 7719
+    },
+    {
+      "path": "results/nested_source_2026-09-29/tables/primary_metrics.csv",
+      "sha256": "eee3898df96fd1272818d40e16d618f0154e21dabdc15f9b87d736211fdccd8b",
+      "bytes": 1575
+    }
+  ]
+}

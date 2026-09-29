@@ -1,0 +1,11 @@
+{
+  "replicates": 2000,
+  "seed": 20260929,
+  "bootstrap": "Paired patient-clustered percentile bootstrap, stratified by outer fold",
+  "interval_scope": "Conditional test-sampling uncertainty; no model retraining, architecture-selection correction or multiplicity adjustment",
+  "primary_reporting": "Raw nested selection procedure and prespecified inner-calibrated counterpart reported side by side",
+  "AP_definition": "Threshold-grouped non-interpolated average precision, verified against sklearn",
+  "Brier_definition": "Mean sum of squared errors across three classes, range 0 to 2",
+  "external_labels_used": false,
+  "threshold_fitting_on_outer_labels": false
+}
